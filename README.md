@@ -48,23 +48,17 @@ You can view my resume here: [Resume](farhad-akbary-resume.html)
 می‌توانید رزومه من را اینجا ببینید: [رزومه](farhad-akbary-resume.html)
 ### Resume Screenshot / اسکرین‌شات رزومه
 ![Resume Screenshot](resume.png)  
-نمای رزومه / Screenshot of resume
 
 ## Screenshots / اسکرین‌شات‌ها
 
 ### Header / هدر
 ![Header](header.png)  
-نمای هدر و منو اصلی سایت / Shows the header and main menu
 
-### About / Portfolio / درباره / نمونه‌کار
+### About Me / درباره من / 
 ![About](about.png)  
-بخش معرفی و نمونه‌کارها / About section and portfolio showcase
 
 ### Portfolio section / بخش نمونه‌کار
 ![Portfolio](portfolio.png)  
 
 ### Footer / پایین صفحه
 ![Footer](footer.png)  
-پایین صفحه و اطلاعات تماس / Footer and contact info
-   ```bash
-   git clone https://github.com/yourusername/personal-portfolio.git
