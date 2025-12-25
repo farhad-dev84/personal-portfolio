@@ -47,26 +47,24 @@ A fully responsive personal portfolio website showcasing my skills and projects 
 You can view my resume here: [Resume](farhad-akbary-resume.html)  
 می‌توانید رزومه من را اینجا ببینید: [رزومه](farhad-akbary-resume.html)
 ### Resume Screenshot / اسکرین‌شات رزومه
-![Resume Screenshot](assets/img/screenshot/resume.png)  
+![Resume Screenshot](screenshot/resume.png)  
 نمای رزومه / Screenshot of resume
 
 ## Screenshots / اسکرین‌شات‌ها
 
 ### Header / هدر
-![Header](assets/img/screenshot/header.png)  
+![Header](screenshot/header.png)  
 نمای هدر و منو اصلی سایت / Shows the header and main menu
 
 ### About / Portfolio / درباره / نمونه‌کار
-![About](assets/img/screenshot/about.png)  
+![About](screenshot/about.png)  
 بخش معرفی و نمونه‌کارها / About section and portfolio showcase
 
 ### Portfolio section / بخش نمونه‌کار
-![Portfolio](assets/img/screenshot/portfolio.png)  
-نمونه پروژه‌ها و گالری / Portfolio projects and gallery
+![Portfolio](screenshot/portfolio.png)  
 
 ### Footer / پایین صفحه
-![Footer](assets/img/screenshot/footer.png)  
-پایین صفحه و اطلاعات تماس / Footer and contact info
-
+![Footer](screenshot/footer.png)  
+پایین صفحه و اطلاعات تماس / Footer and contact info 
    ```bash
    git clone https://github.com/yourusername/personal-portfolio.git
