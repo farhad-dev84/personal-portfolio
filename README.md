@@ -44,8 +44,8 @@ A fully responsive personal portfolio website showcasing my skills and projects 
    git clone https://github.com/farhad-dev84/personal-portfolio.git
 
 ## Resume / رزومه
-You can view my resume here: [Resume](farhad-akbary-resume.html)  
-می‌توانید رزومه من را اینجا ببینید: [رزومه](farhad-akbary-resume.html)
+You can view my resume here: [Resume](Farhad-Akbary-Resume.html)  
+می‌توانید رزومه من را اینجا ببینید: [رزومه](Farhad-Akbary-Resume.html)
 ### Resume Screenshot / اسکرین‌شات رزومه
 ![Resume Screenshot](resume.png)  
 
