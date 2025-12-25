@@ -1,0 +1,920 @@
+/* Navbar */
+/* تبلت */
+@media (min-width: 768px) {
+
+  .navbar {
+    padding: 0.9rem 0;
+  }
+
+  .brand-name {
+    font-size: 1.05rem;
+  }
+
+  .brand-job {
+    font-size: 0.75rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .btn-gradient1 {
+    width: auto;
+    margin-top: 0;
+    padding: 0.80rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .brand-name {
+    font-size: 1rem;
+  }
+
+  .brand-job {
+    font-size: 0.7rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin: 0 !important;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+  }
+
+  .btn-gradient1 {
+    width: 100%;
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+/* موبایل کوچک */
+@media (max-width: 575.98px) {
+
+  .navbar {
+    padding: 0.7rem 0;
+  }
+
+  .brand-name {
+    font-size: 0.9rem;
+  }
+
+  .brand-job {
+    font-size: 0.65rem;
+    opacity: 0.8;
+  }
+
+  .navbar-collapse {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin: 0 !important;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 0.45rem 0;
+    font-size: 0.9rem;
+  }
+
+  .btn-gradient1 {
+    width: 100%;
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Header */
+/* تبلت */
+@media (max-width: 992px) {
+  .hero-section .gradient-text {
+    font-size: 2.8rem;
+  }
+  .hero-section .text-muted {
+    font-size: 1.2rem;
+  } 
+  .btn-gradient {
+    padding: 0.85rem 2rem;
+    font-size: 1.10rem;
+  }
+}
+
+/* موبایل بزرگ  */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .hero-section .gradient-text {
+    font-size: 2.4rem;
+    line-height: 1.25;
+  }
+  .hero-section .text-muted{
+    font-size: 1.1rem;
+  }
+  .hero-buttons {
+    gap: 0.75rem;
+    margin-top: 2rem;
+  }
+  .btn-gradient {
+    padding: 0.85rem 2rem;
+    font-size: 1.05rem;
+  }
+}
+
+/* موبایل کوچک */
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 4rem 0.7rem;
+  }
+  .hero-section .gradient-text {
+    font-size: 2rem;
+  }
+  .hero-section .text-muted {
+    font-size: 1.05rem;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .btn-gradient {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* About Me */
+/* لبتاپ کوچک */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-wrapper {
+    max-width: 820px;
+  }
+}
+
+/* تبلت */
+@media(min-width:768px) and (max-width: 992px) {
+  .about-wrapper {
+    padding: 2.5rem 2rem;
+  }
+  .about-avatar {
+    width: 260px;
+    height: 260px;
+  }
+  .about-title {
+    font-size: 2.4rem;
+  }
+  .about-section .intro, .desc {
+    font-size: 1.1rem;
+  }
+  .btn-gradient2 {
+    padding: 0.85rem 2rem;
+    font-size: 1.10rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 768px) {
+  .about-section {
+    padding: 4.5rem 0;
+  }
+  .about-avatar {
+    width: 220px;
+    height: 220px;
+  }
+  .about-title {
+    font-size: 2.1rem;
+  }
+  .about-section .intro, .desc {
+    font-size: 1.05rem;
+  }
+  .btn-gradient2 {
+    padding: 0.85rem 2rem;
+    font-size: 1.05rem;
+  }
+}
+
+  /* موبایل کوچک */ 
+  @media (max-width: 576px) {
+    .about-section {
+      padding: 4rem 0;
+    }
+    .about-wrapper {
+      padding: 2rem 1.25rem;
+      border-radius: 18px;
+    }
+    .about-avatar {
+      width: 180px;
+      height: 180px;
+      margin-bottom: 1.5rem;
+    }
+    .about-title {
+      font-size: 1.9rem;
+    }
+    .about-title .line {
+      width: 42px;
+      height: 4px;
+    }
+    .about-section .intro, .desc {
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+    .btn-gradient2 {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Skills Me */
+  /* تبلت */
+  @media(min-width: 768px) and (max-width: 992px) {
+    .skills-wrapper {
+      padding: 3rem 2rem;
+    }
+    .skill-title {
+      font-size: 2.4rem;
+    }
+  }
+
+  /* موبایل بزرگ */
+  @media(min-width: 576px) and (max-width: 768px) {
+    .skills-wrapper {
+      padding: 2.5rem 1.75rem;
+    }
+    .skills-title {
+      font-size: 2.2rem;
+    }
+    .skill-name {
+      font-size: 1.05rem;
+    }
+  }
+
+  /* موبایل کوچک */
+  @media(max-width: 576px) {
+    .skills-wrapper {
+      padding: 2rem 1.25rem;
+    }
+    .skill-title {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .skill-name {
+      font-size: 1rem;
+    }
+    .skill-progress {
+      height: 12px;
+    }
+    .progress-percent {
+      font-size: 0.75rem;
+    }
+  }
+
+/* Service */
+/* تبلت */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  #services {
+    padding: 4.5rem 0;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .service-card {
+    padding: 1.4rem;
+    border-radius: 20px;
+  }
+
+  .service-icon {
+    font-size: 2.2rem;
+  }
+
+  .service-title {
+    font-size: 1.15rem;
+  }
+
+  .service-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #services {
+    padding: 4rem 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .services-section .section-title .line {
+    width: 50px;
+    height: 5px;
+  }
+
+  .service-card {
+    padding: 1.25rem;
+    border-radius: 18px;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+  }
+
+  .service-title {
+    font-size: 1.1rem;
+  }
+
+  .service-desc {
+    font-size: 0.9rem;
+  }
+}
+
+/* موبایل کوچک */
+@media (max-width: 576px) {
+
+  #services {
+    padding: 3.5rem 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .services-section .section-title .line {
+    width: 45px;
+    height: 4px;
+  }
+
+  .service-card {
+    padding: 1.1rem;
+    border-radius: 16px;
+  }
+
+  .service-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .service-title {
+    font-size: 1.05rem;
+  }
+
+  .service-desc {
+    font-size: 0.85rem;
+    line-height: 1.55;
+  }
+}
+
+/* Project */
+/* تبلت */
+@media(min-width: 768px) and (max-width: 992px) {
+  #projects {
+    padding: 4.5rem 0;
+  }
+  .projects-title {
+    font-size: 2.4rem;
+  }
+  .project-card-modern {
+    padding: 1.3rem;
+  }
+  .project-title {
+    font-size: 1.2rem;
+  }
+  .project-desc {
+    font-size: 0.95rem;
+  }
+  #project-modal .modal-content {
+    max-width: 90%;
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media(min-width: 576px) and (max-width: 768px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+  .projects-title .line {
+    width: 50px;
+    height: 5px;
+  }
+  .row.g-4 {
+    margin: 0;
+  }
+  .project-card-modern {
+    border-radius: 18px;
+    padding: 1.2rem;
+  }
+  .project-title {
+    font-size: 1.1rem;
+  }
+  .project-desk {
+    font-size: 0.9rem;
+  }
+  #project-modal .modal-content {
+    max-width: 92%;
+    border-radius: 20px;
+  }
+  #project-modal h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* موبایل کوچک */
+@media(max-width: 576px) {
+  #projects {
+    padding: 3.5rem 0;
+  }
+  .projects-title {
+    font-size: 1.8rem;
+    margin-bottom: 2.2rem;
+  }
+  #projects-title .line {
+    width: 45px;
+    height: 4px;
+  }
+  .project-card-modern {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+  .project-img img {
+    border-radius: 10px;
+  }
+  .project-title {
+    font-size: 1.05rem;
+  }
+  .project-desc {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .project-btn {
+    font-size: 0.9rem;
+    padding: 0.65rem 1rem;
+    border-radius: 10px;
+  }
+  #project-modal .modal-content {
+    padding: 1.6rem 1.2rem;
+  }
+  #project-modal h3 {
+    font-size: 1.4rem;
+  }
+  #project-modal p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Values */
+/* تبلت */
+@media(min-width: 768px) and (max-width: 992px) {
+  .values-section {
+    padding: 5rem 0;
+  }
+  .values-title {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+  }
+  .value-card {
+    padding: 2rem;
+  }
+  .value-title {
+    font-size: 1.25rem;
+  }
+  .value-desc {
+    font-size: 0.9rem;
+  }
+  .value-icon {
+    font-size: 2.5rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media(min-width: 576px) and (max-width: 768px) {
+  .values-section {
+    padding: 4.5rem 0;
+  }
+  .values-title {
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+  }
+  .value-card {
+    padding: 1.8rem;
+  }
+  .value-title {
+    font-size: 1.15rem;
+  }
+  .value-desc {
+    font-size: 0.85rem;
+  }
+  .value-icon {
+    font-size: 2.2rem;
+  }
+}
+
+/* موبایل کوچک */
+@media(max-width: 576px) {
+  .values-section {
+    padding: 3.8rem 0;
+  }
+  .values-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .value-card {
+    padding: 1.5rem;
+  }
+  .value-title {
+    font-size: 1rem;
+  }
+  .value-desc {
+    font-size: 0.8rem;
+  }
+  .value-icon {
+    font-size: 2rem;
+  }
+}
+
+/* Contact */
+/* تبلت */
+@media(min-width: 768px) and (max-width: 992px) {
+  .contact-ultra {
+    padding: 5rem 0;
+    min-height: auto;
+  }
+  .contact-title {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+  }
+  .contact-form-ultra {
+    padding: 2.5rem;
+    border-radius: 1.8rem;
+  }
+  .form-control {
+    font-size: 0.95rem;
+    padding: 0.9rem 1.1rem;
+  }
+  textarea.form-control {
+    height: 120px;
+  }
+  .btn-wave {
+    font-size: 0.95rem;
+    padding: 0.9rem 2rem;
+  }
+  #formAlertUltra {
+    font-size: 0.95rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media(min-width: 576px) and (max-width: 768px) {
+  .contact-ultra {
+    padding: 4.5rem 0;
+  }
+   .contact-title{
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+  }
+  .contact-title .line {
+    width: 50px;
+    height: 5px;
+  }
+  .contact-form-ultra {
+    padding: 2rem;
+    border-radius: 1.6rem;
+  }
+  .form-control {
+    font-size: 0.9rem;
+    padding: 0.85rem 1.8rem;
+  }
+  textarea.form-control {
+    height: 115px;
+  }
+  .btn-wave {
+    font-size: 0.9rem;
+    padding: 0.85rem 1.8rem;
+  }
+  #formAlertUltra {
+    font-size: 0.9rem;
+  }
+}
+
+/* موبایل کوچک */
+@media(max-width: 576px) {
+  .contact-ultra {
+    padding: 3.8rem 0;
+  }
+  .contact-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .contact-title .line {
+    width: 45px;
+    height: 4px;
+  }
+  .contact-form-ultra {
+    padding: 1.6rem;
+    border-radius: 1.4rem;
+  }
+  .form-control {
+    font-size: 0.85rem;
+    padding: 0.8rem 0.95rem;
+  }
+  textarea.form-control {
+    height: 105px;
+  }
+  .btn-wave {
+    font-size: 0.88rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.9rem;
+  }
+  #formAlertUltra {
+    font-size: 0.85rem;
+  }
+}
+
+/* How I Work */
+/* تبلت */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .methods-section {
+    padding: 5rem 0;
+  }
+
+  .methods-title {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .method-card {
+    padding: 1.8rem 1.5rem;
+    border-radius: 18px;
+  }
+
+  .method-icon {
+    font-size: 2.5rem;
+  }
+
+  .method-title {
+    font-size: 1.15rem;
+  }
+
+  .method-desc {
+    font-size: 0.9rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 768px) {
+
+  .methods-section {
+    padding: 4.5rem 0;
+  }
+
+  .methods-title {
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .methods-title .line {
+    width: 50px;
+    height: 5px;
+  }
+
+  .method-card {
+    padding: 1.6rem 1.4rem;
+    border-radius: 16px;
+  }
+
+  .method-icon {
+    font-size: 2.2rem;
+  }
+
+  .method-title {
+    font-size: 1.1rem;
+  }
+
+  .method-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* موبایل کوچک */
+@media (max-width: 576px) {
+
+  .methods-section {
+    padding: 3.8rem 0;
+  }
+
+  .methods-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .methods-title .line {
+    width: 45px;
+    height: 4px;
+  }
+
+  .method-card {
+    padding: 1.4rem 1.2rem;
+    border-radius: 15px;
+  }
+
+  .method-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .method-title {
+    font-size: 1rem;
+  }
+
+  .method-desc {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+}
+
+/* Footer */
+/* تبلت */
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer {
+    padding: 2.5rem;
+  }
+
+  .footer-title {
+    font-size: 1.6rem;
+  }
+
+  .footer-desc {
+    font-size: 0.9rem;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+
+  .footer-social {
+    font-size: 1.4rem;
+  }
+
+  .d-flex.flex-column.flex-md-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .resume-btn {
+    margin: 0 auto 0.5rem auto !important;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 768px) {
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-desc {
+    font-size: 0.85rem;
+  }
+
+  .footer-link {
+    font-size: 0.85rem;
+  }
+
+  .footer-social {
+    font-size: 1.3rem;
+  }
+
+  .d-flex.flex-column.flex-md-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .resume-btn {
+    margin: 0 auto 0.5rem auto !important;
+  }
+}
+
+/* موبایل کوچک */
+@media (max-width: 576px) {
+  .footer {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 1.3rem;
+  }
+
+  .footer-desc {
+    font-size: 0.8rem;
+  }
+
+  .footer-link {
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-social {
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+
+  .d-flex.flex-column.flex-md-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .resume-btn {
+    width: 100%;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .footer-gmail {
+    font-size: 0.85rem;
+  }
+}
+
+/* Scroll To Top */
+/* تبلت */
+@media (min-width: 768px) and (max-width: 992px) {
+  #scrollTopBtn {
+    width: 48px;
+    height: 48px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.3rem;
+  }
+}
+
+/* موبایل بزرگ */
+@media (min-width: 576px) and (max-width: 768px) {
+    #scrollTopBtn {
+    width: 44px;
+    height: 44px;
+    bottom: 18px;
+    right: 18px;
+    font-size: 1.2rem;
+  }
+}
+
+/* موبایل کوچک */
+@media (max-width: 576px) {
+  #scrollTopBtn {
+    width: 40px;
+    height: 40px;
+    bottom: 16px;
+    right: 16px;
+    font-size: 1.05rem;
+  }
+
+  #scrollTopBtn:hover {
+    transform: translateY(-2px) scale(1.05);
+  }
+}

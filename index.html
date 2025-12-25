@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Title -->
+  <title>Farhad Akbary — Front-End Developer | HTML, CSS, Bootstrap & JS</title>
+
+  <!-- Meta Description -->
+  <meta name="description" content="Farhad Akbary, a passionate Front-End Developer, building smooth, modern, and highly polished websites with HTML, CSS, Bootstrap, and JavaScript. Explore my portfolio and projects." />
+
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="Farhad Akbary, Front-End Developer, Web Developer, HTML, CSS, Bootstrap, JavaScript, Responsive Design, Portfolio, Professional Developer" />
+
+  <!-- Author -->
+  <meta name="author" content="Farhad Akbary" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Farhad Akbary — Front-End Developer" />
+  <meta property="og:site_name" content="Farhad Akbary Portfolio" />
+  <meta property="og:description" content="Explore the professional portfolio of Farhad Akbary, crafting modern, responsive websites using HTML, CSS, Bootstrap & JavaScript." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://farhad-dev84.github.io/personal-portfolio/"/>
+
+
+  <!--اینجا باید وقتی که عکس گرفتم تصویرم رو بزارم-->
+  <meta property="og:image" content="https://farhad-dev84.github.io/personal-portfolio/assets/img/me.webp" />
+  <meta property="og:locale" content="fa_IR" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Farhad Akbary",
+  "url": "https://farhad-dev84.github.io/personal-portfolio/",
+  "sameAs": [
+    "https://github.com/farhad-dev84",
+    "https://www.instagram.com/front_end.path"
+  ],
+  "jobTitle": "Front-End Developer",
+  "description": "Farhad Akbary is a Front-End Developer creating modern, responsive, and professional websites using HTML, CSS, Bootstrap, and JavaScript."
+}
+
+  </script>
+
+  <!-- Roboto و Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+
+    <noscript>
+    <style>
+      .animate-on-scroll,
+      .skill-item,
+      .project-card-modern {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <div class="container">
+
+    <!-- brand -->
+    <a href="index.html" class="navbar-brand d-flex align-items-center text-decoration-none">
+      <div class="brand-mark d-flex justify-content-center align-items-center">&lt;F&gt;</div>
+      <div class="brand-text ms-2">
+        <div class="brand-name">Farhad Akbary</div>
+        <div class="brand-job">Front-End Developer</div>
+      </div>
+    </a>
+
+    <!-- hamburger -->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- menu -->
+    <div id="navbarNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto" dir="rtl">
+        <li class="nav-item"><a class="nav-link active" href="#" aria-label="رفتن به بخش خانه">خانه</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" aria-label="رفتن به بخش درباره‌من">درباره‌من</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects" aria-label="رفتن به بخش نمونه‌کارها">نمونه‌کارها</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services" aria-label="رفتن به بخش خدمات">خدمات</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" aria-label="رفتن به بخش ارتباط">تماس</a></li>
+      </ul>
+
+      <!-- resume button -->
+      <a href="./Resume/Farhad-Akbary-Resume.html" download target="_blank" rel="noopener" class="btn btn-lg btn-gradient1 ms-md-3 mt-3 mt-md-0">
+        دانلود رزومه
+      </a>
+    </div>
+
+  </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section d-flex align-items-center min-vh-100">
+  <div class="container text-center">
+
+    <!-- Seo -->
+  <h1 class="visually-hidden">
+    Front-End Developer Portfolio – Farhad Akbary
+  </h1>
+
+
+    <!-- Main Title (فارسی) -->
+    <h2 class="display-3 fw-bold mb-3 gradient-text animate__animated animate__fadeInDown animate__delay-0-5s animate__once">
+      سلام، من <span class="gradient-text">Farhad Akbary</span>
+    </h2>
+
+    <!-- Subtitle / Catchphrase (انگلیسی) -->
+    <p class="lead mb-2 text-muted animate__animated animate__fadeInDown animate__delay-1s animate__once">
+      Front-End Developer | HTML, CSS, Bootstrap, JavaScript
+    </p>
+
+    <p class="text-muted mb-4 animate__animated animate__fadeInDown animate__delay-1-5s animate__once">
+      I build fast, modern, and responsive websites for businesses and freelancers
+    </p>
+
+    <!-- Buttons Wrapper -->
+    <div class="hero-buttons">
+      <!-- CONTACT BUTTON -->
+      <a href="#contact" class="btn btn-lg btn-gradient animate__animated animate__fadeInUp animate__delay-2s animate__once">
+        تماس با من
+      </a>      
+    </div>
+
+  </div>
+  </header>
+
+   <!-- About Me -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-wrapper mx-auto text-center p-4 rounded-4 shadow-lg animate-on-scroll">
+        
+        <!-- profile-image -->
+        <div class="about-avatar mb-4 d-flex justify-content-center align-items-center animate-on-scroll">
+          <img src="./assets/img/me.webp" alt="Farhad Akbary" class="profile-img img-fluid" loading="lazy">
+        </div>
+
+        <!-- about-title -->
+         <h2 class="about-title animate-on-scroll">
+          <span class="line d-block"></span>
+          درباره من
+         </h2>
+
+         <!-- about-text -->
+          <p class="intro mb-2 animate-on-scroll">
+        I'm <strong>Farhad Akbary</strong>, a passionate 
+        <strong>Front-End Developer</strong> focused on building smooth,
+        modern and highly polished user interfaces using 
+        <strong>HTML, CSS, Bootstrap and JavaScript</strong>.            
+          </p>
+
+          <p class="desc animate-on-scroll">
+        من عاشق ساختن پروژه‌های واقعی، سریع، تمیز و دقیق هستم. هر روز تمرین
+        می‌کنم، یاد می‌گیرم، می‌سازم و تلاش می‌کنم نسخه قوی‌تری از خودم بسازم.
+        هدفم اینه که بهترین وب‌سایت‌ها رو برای کارفرما طراحی کنم و تجربه کاربری
+        حرفه‌ای ارائه بدم.            
+          </p>
+
+      <!-- resume button -->
+      <a href="./Resume/Farhad-Akbary-Resume.html" download target="_blank" rel="noopener" class="btn btn-lg btn-gradient2 mt-3 animate-on-scroll">
+        دانلود رزومه
+      </a>
+
+      </div>
+    </div>
+  </section> 
+
+   <!-- Skill Me -->
+   <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="skills-wrapper mx-auto p-4 rounded-4 text-center shadow-lg">
+
+        <h2 class="skill-title">
+          <span class="line d-block"></span>
+          مهارت
+        </h2>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">HTML</h5>
+              <div class="progress skill-progress" data-progress="95">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">CSS</h5>
+              <div class="progress skill-progress" data-progress="90">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">Bootstrap</h5>
+              <div class="progress skill-progress" data-progress="92">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">JavaScript</h5>
+              <div class="progress skill-progress" data-progress="85">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">Supabase</h5>
+              <div class="progress skill-progress" data-progress="85">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">UI/UX</h5>
+              <div class="progress skill-progress" data-progress="90">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-item p-3 rounded-3 shadow-sm">
+              <h5 class="skill-name mb-2">SEO</h5>
+              <div class="progress skill-progress" data-progress="80">
+                <div class="progress-bar">
+                  <span class="progress-percent">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+        </div>
+      </div>
+    </div>
+   </section> 
+
+  <!-- Service -->
+   <section id="services" class="services-section py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">
+      <span class="line d-block"></span>
+      خدمات قابل ارائه
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Service 1 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">💻</div>
+          <h5 class="service-title mb-2">توسعه وب فرانت‌اند</h5>
+          <p class="service-desc">
+            طراحی و پیاده‌سازی وب‌سایت‌های مدرن با HTML، CSS، Bootstrap و JavaScript.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">🎨</div>
+          <h5 class="service-title mb-2">طراحی UI/UX</h5>
+          <p class="service-desc">
+            طراحی تجربه و رابط کاربری جذاب و حرفه‌ای برای وب و اپلیکیشن‌ها.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">⚡</div>
+          <h5 class="service-title mb-2">سئو و بهینه‌سازی</h5>
+          <p class="service-desc">
+            بهبود رتبه سایت در موتورهای جستجو و افزایش بازدید کاربران.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">📱</div>
+          <h5 class="service-title mb-2">ساخت اپلیکیشن‌های مدیریت داده</h5>
+          <p class="service-desc">
+            برنامه‌های سبک برای مدیریت کارها، مخاطبین و داده‌های روزمره.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">📐</div>
+          <h5 class="service-title mb-2">طراحی واکنش‌گرا</h5>
+          <p class="service-desc">
+            اطمینان از سازگاری وب‌سایت با موبایل، تبلت و صفحه‌نمایش‌های مختلف.
+          </p>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-lg-4 col-md-6 d-flex">
+        <div class="service-card flex-fill p-4 rounded-4 shadow-sm text-center">
+          <div class="service-icon mb-3">🔧</div>
+          <h5 class="service-title mb-2">پشتیبانی و به‌روزرسانی پروژه‌ها</h5>
+          <p class="service-desc">
+            نگهداری و آپدیت سایت‌ها برای عملکرد بهتر و امنیت بالاتر.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   </section>     
+
+  <!-- Why Me -->
+   <section id="why-me" class="why-me-section">
+    <div class="container">
+
+      <h2 class="why-me-title text-center">
+        <span class="line d-block"></span>
+        چرا من؟
+      </h2>
+      
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="why-me-card text-center">
+            <div class="why-me-icon"><i class="bi bi-clock-history"></i></div>
+            <h5>متعهد به زمان</h5>
+            <p>تحویل پروژه طبق برنامه توافق‌شده</p>
+          </div>
+        </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="why-me-card text-center">
+          <div class="why-me-icon"><i class="bi bi-code-slash"></i></div>
+          <h5>کدنویسی استاندارد</h5>
+          <p>خوانا، تمیز و قابل توسعه</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="why-me-card text-center">
+          <div class="why-me-icon"><i class="bi bi-phone"></i></div>
+          <h5>طراحی ریسپانسیو</h5>
+          <p>نمایش بی‌نقص در همه دستگاه‌ها</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="why-me-card text-center">
+          <div class="why-me-icon"><i class="bi bi-chat-dots"></i></div>
+          <h5>ارتباط شفاف</h5>
+          <p>گزارش‌دهی منظم و پاسخ‌گویی سریع</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="why-me-card text-center">
+          <div class="why-me-icon"><i class="bi bi-award"></i></div>
+          <h5>تمرکز روی کیفیت</h5>
+          <p>اولویت با کیفیت نهایی پروژه</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="why-me-card text-center">
+          <div class="why-me-icon"><i class="bi bi-headset"></i></div>
+          <h5>پشتیبانی بعد تحویل</h5>
+          <p>همراهی بعد از تحویل پروژه</p>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+   </section>
+
+   <!-- Project -->
+   <section id="projects">
+
+      <div class="container">
+      <h2 class="projects-title text-center">
+        <span class="line d-flex"></span>
+        نمونه کار
+      </h2>
+
+      <!-- Projects Grid -->
+       <div class="row g-4 mx-4">
+
+        <!-- Simple ToDo App -->
+         <div class="col-lg-4 col-md-6 d-flex">
+          <div class="project-card-modern ultra flex-fill" data-title="Simple ToDo App" data-desc="یک برنامه سبک برای مدیریت کارهاست که به کاربران اجازه می‌دهد کارها را اضافه، ویرایش، حذف و تکمیل کنند." data-link="https://github.com/farhad-dev84/simple-todo-app-v5.git">
+            <div class="project-img mb-3">
+              <img src="./assets/img/simole-todo-app.webp" alt="Simple ToDo App" class="img-fluid rounded" loading="lazy" >
+            </div>
+            <h3 class="project-title">Simple ToDo App</h3>
+            <p class="project-desc">یک برنامه سبک برای مدیریت کارهاست که به کاربران اجازه می‌دهد کارها را اضافه، ویرایش، حذف و تکمیل کنند.</p>
+            <a href="https://github.com/farhad-dev84/simple-todo-app-v5.git" class="project-btn btn">مشاهده پروژه</a>
+          </div>
+          </div>
+
+         <!-- Simple Contact Form -->
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="project-card-modern ultra flex-fill" data-title="Simple Contact Form" data-desc="Bootstrap, JavaScript فرم تماس مدرن ساخته شده با" data-link="https://github.com/farhad-dev84/simple-contact-form-v5.git">
+              <div class="project-img mb-3">
+                <img src="./assets/img/simple-contact-form.webp" alt="Simple Contact Form" class="img-fluid rounded" loading="lazy">
+              </div>
+              <h3 class="project-title">Simple Contact Form</h3>
+              <p class="project-desc">Bootstrap, JavaScript فرم تماس مدرن ساخته شده با</p>
+              <a href="https://github.com/farhad-dev84/simple-contact-form-v5.git" class="project-btn btn">مشاهده پروژه</a>
+            </div>
+           </div>
+
+         <!-- Text-Word-Converter -->
+          <div class="col-lg-4 col-md-6 d-flex">
+           <div class="project-card-modern ultra flex-fill" data-title="Text Word Converter" data-desc="ابزاری ساده برای تغییر متن به حروف بزرگ، کوچک یا فرمت‌های مختلف با استفاده از HTML، CSS و JavaScript." data-link="https://github.com/farhad-dev84/text-word-converter-v4.git">
+            <div class="project-img mb-3">
+              <img src="./assets/img/text-word-converter.webp" alt="Text Word Converter" class="img-fluid rounded" loading="lazy">
+            </div>
+            <h3 class="project-title">Text Word Converter</h3>
+            <p class="project-desc">ابزاری ساده برای تغییر متن به حروف بزرگ، کوچک یا فرمت‌های مختلف با استفاده از HTML، CSS و JavaScript.</p>
+            <a href="https://github.com/farhad-dev84/text-word-converter-v4.git" class="project-btn btn">مشاهده پروژه</a>
+           </div>
+           </div>
+
+         <!-- Text-Word-Counter -->
+           <div class="col-lg-4 col-md-6 d-flex">
+            <div class="project-card-modern ultra flex-fill" data-title="Text Word Counter" data-desc="ابزاری ساده برای شمارش تعداد کلمات و حروف در متن با HTML، CSS و JavaScript." data-link="https://github.com/farhad-dev84/text-word-counter-v4.git">
+             <div class="project-img mb-3">
+                <img src="./assets/img/text-word-counter.webp" alt="Text Word Counter" class="img-fluid rounded" loading="lazy">
+              </div>
+              <h3 class="project-title">Text Word Counter</h3>
+              <p class="project-desc">ابزاری ساده برای شمارش تعداد کلمات و حروف در متن با HTML، CSS و JavaScript.</p>
+              <a href="https://github.com/farhad-dev84/text-word-counter-v4.git" class="project-btn btn">مشاهده پروژه</a>
+             </div>
+            </div>
+
+         <!-- Clock-Date-Theme-Switcher -->
+           <div class="col-lg-4 col-md-6 d-flex">
+            <div class="project-card-modern ultra flex-fill" data-title="Clock Date Theme Switcher" data-desc="یک ساعت و تاریخ دیجیتال با قابلیت تغییر تم (روشن/تاریک) با HTML، CSS و JavaScript." data-link="https://github.com/farhad-dev84/clock-date-theme-switcher-v4.git">
+             <div class="project-img mb-3">
+                <img src="./assets/img/clock-data-theme-switcher.webp" alt="Clock Date Theme Switcher" class="img-fluid rounded" loading="lazy">
+              </div>
+              <h3 class="project-title">Clock Date Theme Switcher</h3>
+              <p class="project-desc">یک ساعت و تاریخ دیجیتال با قابلیت تغییر تم (روشن/تاریک) با HTML، CSS و JavaScript.</p>
+              <a href="https://github.com/farhad-dev84/clock-date-theme-switcher-v4.git" class="project-btn btn">مشاهده پروژه</a>
+              </div>
+            </div>
+
+         <!-- Contact-Manager-App -->
+           <div class="col-lg-4 col-md-6 d-flex">
+            <div class="project-card-modern ultra flex-fill" data-title="Contact Manager App" data-desc=".یک برنامه ساده برای مدیریت مخاطبین با امکان افزودن، ویرایش و حذف تماس‌ها" data-link="https://github.com/farhad-dev84/contact-manager-app-v4.git">
+             <div class="project-img mb-3">
+              <img src="./assets/img/contact-manager-app.webp" alt="Contact Manager App" class="img-fluid rounded" loading="lazy">
+             </div>
+             <h3 class="project-title">Contact Manager App</h3>
+             <p class="project-desc">.یک برنامه ساده برای مدیریت مخاطبین با امکان افزودن، ویرایش و حذف تماس‌ها</p>
+             <a href="https://github.com/farhad-dev84/contact-manager-app-v4.git" class="project-btn btn">مشاهده پروژه</a>
+            </div>
+            </div>
+
+            <a href="#contact" class="btn btn-wave">🤝همین حالا همکاری کنیم</a>
+
+           </div>
+
+          <!-- Modal -->
+           <div id="project-modal" class="modal">
+            <div class="modal-content">
+              <span class="modal-close">&times;</span>
+              <h3 id="modalTitle"></h3>
+              <p id="modalDesc"></p>
+              <a href="#" id="modal-link" target="_blank" class="project-btn btn" >GitHub مشاهده پروژه روی</a>
+            </div>
+            </div>        
+          </div> 
+
+   </section>  
+
+  <!-- How I Work -->
+   <section id="methods" class="methods-section">
+  <div class="container">
+
+    <h2 class="methods-title text-center">
+      <span class="line d-block"></span>
+      روش کار من
+    </h2>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="method-card text-center p-4 h-100">
+          <div class="method-icon"><i class="bi bi-lightbulb-fill"></i></div>
+          <h5 class="method-title">ایده پردازی</h5>
+          <p class="method-desc">جمع‌آوری ایده‌ها و هدف‌گذاری برای پروژه‌ها.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="method-card text-center p-4 h-100">
+          <div class="method-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+          <h5 class="method-title">تحقیق و یادگیری</h5>
+          <p class="method-desc">بررسی منابع و یادگیری تکنولوژی‌های لازم.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="method-card p-4 h-100 text-center">
+          <div class="method-icon"><i class="bi bi-pencil-fill"></i></div>
+          <h5 class="method-title">طراحی و پیش‌طرح</h5>
+          <p class="method-desc">طراحی اولیه صفحات و رابط کاربری پروژه.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="method-card p-4 h-100 text-center">
+          <div class="method-icon"><i class="bi bi-code-slash"></i></div>
+          <h5 class="method-title">کدنویسی</h5>
+          <p class="method-desc">پیاده‌سازی با HTML، CSS و JavaScript.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="method-card p-4 h-100 text-center">
+          <div class="method-icon"><i class="bi bi-check2-circle"></i></div>
+          <h5 class="method-title">تست و بهینه‌سازی</h5>
+          <p class="method-desc">بررسی خطاها و اعمال اصلاحات لازم.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="method-card p-4 h-100 text-center">
+          <div class="method-icon"><i class="bi bi-rocket-takeoff"></i></div>
+          <h5 class="method-title">انتشار</h5>
+          <p class="method-desc">آپلود پروژه و ارائه نهایی به کاربران.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+   </section>
+
+  <!-- Values -->
+   <section id="values" class="values-section">
+    <div class="container">
+
+      <h2 class="values-title text-center">
+        <span class="line d-block"></span>
+        ارزش‌های من
+      </h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4 animate-on-scroll">
+          <div class="value-card text-center p-4 h-100">
+            <div class="value-icon mb-3">
+              <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h5 class="value-title">سرعت و کارایی</h5>
+            <p class="value-desc">توسعه سریع و بدون مشکل پروژه ها با کیفیت بالا</p>
+          </div>
+        </div>
+
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="value-card text-center p-4 h-100">
+          <div class="value-icon mb-3">
+            <i class="bi bi-shield-lock-fill"></i>
+          </div>
+          <h5 class="value-title">امنیت</h5>
+          <p class="value-desc">تضمین امنیت اطلاعات و رعایت حریم خصوصی کاربران.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="value-card text-center p-4 h-100">
+          <div class="value-icon mb-3">
+            <i class="bi bi-gear-fill"></i>
+          </div>
+          <h5 class="value-title">نوآوری</h5>
+          <p class="value-desc">استفاده از آخرین تکنولوژی‌ها و ایده‌های جدید در پروژه‌ها.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="value-card text-center p-4 h-100">
+          <div class="value-icon mb-3">
+            <i class="bi bi-people-fill"></i>
+          </div>
+          <h5 class="value-title">تیم‌محوری</h5>
+          <p class="value-desc">کار گروهی و هماهنگی برای رسیدن به بهترین نتیجه.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="value-card text-center p-4 h-100">
+          <div class="value-icon mb-3">
+            <i class="bi bi-award-fill"></i>
+          </div>
+          <h5 class="value-title">کیفیت</h5>
+          <p class="value-desc">توجه کامل به کیفیت و جزئیات در تمام پروژه‌ها.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-lg-4 animate-on-scroll">
+        <div class="value-card text-center p-4 h-100">
+          <div class="value-icon mb-3">
+            <i class="bi bi-chat-dots-fill"></i>
+          </div>
+          <h5 class="value-title">پشتیبانی</h5>
+          <p class="value-desc">پشتیبانی سریع و پاسخگو برای تمام نیازهای کاربران.</p>
+        </div>
+      </div>        
+
+      </div>
+
+    </div>
+   </section>
+
+   <!-- Contact -->
+   <section id="contact" class="contact-ultra">
+  <div class="container">
+
+    <h2 class="contact-title text-center">
+      <span class="line d-block"></span>
+      تماس
+    </h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form id="contactFormUltra" class="contact-form-ultra" novalidate>
+
+          <div class="mb-3 position-relative animated-field">
+            <input type="text" id="name" class="form-control" placeholder="نام و نام خانوادگی" required>
+            <div class="invalid-feedback">لطفا نام و نام خانوادگی خود را وارد کنید</div>
+          </div>
+
+          <div class="mb-3 position-relative animated-field">
+            <input type="email" id="email" class="form-control" placeholder="ایمیل" required>
+            <div class="invalid-feedback">لطفا ایمیل معتبر وارد کنید</div>
+          </div>
+
+          <div class="mb-3 position-relative animated-field">
+            <textarea id="message" class="form-control" style="height: 130px;" placeholder="پیام شما" required></textarea>
+            <div class="invalid-feedback">پیام نمی‌تواند خالی باشد</div>
+          </div>
+
+          <button type="submit" class="btn btn-wave w-100 mb-3">
+            ارسال پیام
+            <span id="loadingSpinnerUltra" class="spinner-border spinner-border-sm d-none" role="status"></span>
+          </button>
+
+          <div id="formAlertUltra"></div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+   </section>
+   
+   <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+
+        <div class="row d-flex justify-content-center align-items-center" style="direction: ltr;">
+
+          <div class="col-md-4 mb-4">
+            <h3 class="footer-title">Farhad Akbary</h3>
+            <p class="footer-desc">Front-End Developer | JavaScript & Bootstrap Enthusiast</p>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5 class="text-center mb-3 fw-bold">لینک‌ها</h5>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center gap-3">             
+              <li><a href="#contact" class="text-decoration-none footer-link">تماس</a></li>
+              <li><a href="#projects" class="text-decoration-none footer-link">نمونه‌کارها</a></li>
+              <li><a href="#about" class="text-decoration-none footer-link">درباره‌من</a></li>
+              <li><a href="#" class="text-decoration-none footer-link">خانه</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5 class="text-center mb-3 fw-bold">شبکه‌های اجتماعی</h5>
+            <div class="d-flex gap-3 text-center justify-content-center align-items-center">
+              <a href="https://github.com/farhad-dev84" class="footer-social" target="_blank"><i class="bi bi-github"></i></a>
+              <a href="https://www.instagram.com/front_end.path" class="footer-social" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          
+        </div>
+
+        <hr class="bg-secondary">
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center gap-2 mt-3">
+       <a href="./Resume/Farhad-Akbary-Resume.html" download target="_blank" rel="noopener" class="btn btn-sm btn-gradient1 ms-md-3 mt-3 mt-md-0 resume-btn">دانلود رزومه</a>
+       <p>&copy; 2025 Farhad Akbary. All rights reserved.</p>
+       <p class="small">Built with ❤️ using Bootstrap & JavaScript</p>
+       <p class="mb-2 mb-md-0 footer-gmail" style="direction: ltr;"><i class="bi bi-envelope me-2"></i><a href="mailto:farhad84akbaryy@gmail.com">farhad84akbaryy@gmail.com</a></p>
+    </div>
+
+      </div>
+    </footer>
+
+   <!-- Scroll To Top -->
+    <button id="scrollTopBtn" aria-label="Scroll To Top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+  </body>
+</html>
