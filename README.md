@@ -25,7 +25,8 @@ A fully responsive personal portfolio website showcasing my skills and projects 
 - HTML5  
 - CSS3  
 - Bootstrap 5  
-- JavaScript (ES6+)  
+- JavaScript (ES6+)
+- React JS پیاده‌سازی منطق و رابط کاربری با 
 - Responsive Web Design / طراحی ریسپانسیو  
 - UI/UX Principles / اصول رابط کاربری و تجربه کاربری  
 - FontAwesome / آیکون‌های حرفه‌ای  
