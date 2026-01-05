@@ -46,9 +46,7 @@ A fully responsive personal portfolio website showcasing my skills and projects 
 
 ## Resume / رزومه
 You can view my resume here: [Resume](Farhad-Akbary-Resume.html)  
-می‌توانید رزومه من را اینجا ببینید: [رزومه](Farhad-Akbary-Resume.html)
-### Resume Screenshot / اسکرین‌شات رزومه
-![Resume Screenshot](Resume.png)  
+می‌توانید رزومه من را اینجا ببینید: [رزومه](Farhad-Akbary-Resume.html
 
 ## Screenshots / اسکرین‌شات‌ها
 
